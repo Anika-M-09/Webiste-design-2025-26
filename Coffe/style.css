@@ -30,8 +30,7 @@
 --space-3:2rem;
 
 }
-*{
- box-sizing: 15px;
+*{ box-sizing: 15px;
 margin: 0;
 padding: 0;
 
@@ -142,16 +141,16 @@ border-radius: var(--space-2);
     padding: var(--space-1) var(--space-2);
     border-radius: var(--space-3);
 }
- /***********Layout***********/
- .container{
+/***********Layout***********/
+.container{
     max-width: 1280px;
     margin: var(--space-2);
- }
- .container-section{
+}
+.container-section{
     box-shadow: var(--shadow-dark);
     padding: var(--space-2) auto;
     margin-top: var(--space-2);
- }
+}
 .d-flex{display: flex;}
 .d-grid{display: grid;}
 
