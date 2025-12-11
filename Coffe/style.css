@@ -155,12 +155,12 @@ border-radius: var(--space-2);
 .d-grid{display: grid;}
 
 .grid-3col{
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(2,2fr);
 }
 .flex-between{justify-content: space-between;}
 
 .grid-2col{
-grid-template-columns: repeat(2,1fr);
+grid-template-columns: repeat(2,2fr);
 }
 .flex-between{justify-content: space-between;}
 
