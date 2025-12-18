@@ -19,6 +19,15 @@
 
 --shadow-dark:0 0.1rem 0.2rem 0.1rem rgb(45, 40, 35,0.2);
 
+--shadow-light:0 0.1rem 0.2rem 0.1rem rgb(255,255,255,0.5);
+
+--font-normal:Roboto,Arial,sans-serif;
+--font-heading:'Noto Serif', serif;
+
+--space-0:0;
+--space-1:0.5rem;
+--space-2:1rem;
+--space-3:2rem;
 
 }
 *{ box-sizing: border-box;
