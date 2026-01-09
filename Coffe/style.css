@@ -240,6 +240,30 @@ box-shadow: var(--shadow-dark);
     -webkit-box-orient: vertical;
     line-clamp: 2;
 }
+/***********Contact***********/
+.contact-form label{
+    display: block;
+}
+.contact-form input,
+.contact-form textarea,
+.contact-form select{
+    appearance: none;
+    font-family: var(--font-normal);
+    font-size: 16px;
+    border-color: var(--muted);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    padding: var(--space-1);
+}
+.contact-form textarea{
+    resize: none;
+}
+.contact-form .input-section{
+    margin: var(--space-2)0;
+}
 /***********Modile***********/
 @media (max-width:600px){
 .sm-grid-1col{
@@ -250,3 +274,4 @@ box-shadow: var(--shadow-dark);
     grid-template-columns: repeat(2, 1fr);
 }
 }
+
