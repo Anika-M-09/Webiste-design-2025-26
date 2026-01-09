@@ -5,35 +5,35 @@
 /***CSS Variables*/
 
 :root{
---primary:#192b89;
---primary-tint:#5468c9;
---primary-shade:#c3c3c3;
-
-
---dark:#362d2a;
---light:#ffff;
-
---muted:#f8f6f5;
---muted-tint:#fbfafa;
---muted-shade:#9f9f9f;
-
---shadow-dark:0 0.1rem 0.2rem 0.1rem rgb(45, 40, 35,0.2);
-
---shadow-light:0 0.1rem 0.2rem 0.1rem rgb(255,255,255,0.5);
-
---font-normal:Roboto,Arial,sans-serif;
---font-heading:'Noto Serif', serif;
-
---space-0:0;
---space-1:0.5rem;
---space-2:1rem;
---space-3:2rem;
-
+    --primary:#192b89;
+    --primary-tint:#5468c9;
+    --primary-shade:#c3c3c3;
+    
+    
+    --dark:#362d2a;
+    --light:#ffff;
+    
+    --muted:#f8f6f5;
+    --muted-tint:#fbfafa;
+    --muted-shade:#9f9f9f;
+    
+    --shadow-dark:0 0.1rem 0.2rem 0.1rem rgb(45, 40, 35,0.2);
+    
+    --shadow-light:0 0.1rem 0.2rem 0.1rem rgb(255,255,255,0.5);
+    
+    --font-normal:Roboto,Arial,sans-serif;
+    --font-heading:'Noto Serif', serif;
+    
+    --space-0:0;
+    --space-1:0.5rem;
+    --space-2:1rem;
+    --space-3:2rem;
+    
 }
 *{ box-sizing: border-box;
-margin: 0;
-padding: 0;
-
+    margin: 0;
+    padding: 0;
+    
 }
 
 body{
@@ -42,8 +42,8 @@ body{
 }
 
 h1,h2,h3,h4,h5,h6{
-font-family:var(--font-heading);
-margin-bottom: 0.5rem;
+    font-family:var(--font-heading);
+    margin-bottom: 0.5rem;
 }
 p{
     margin-bottom: 0.5rem;
@@ -95,48 +95,48 @@ p{
 
 .bg-muted{background-color: var(--muted);}
 
-    .text-primary {color: var(--primary);}
+.text-primary {color: var(--primary);}
 
-    .text-dark{color: var(--dark);}
+.text-dark{color: var(--dark);}
 
-    .text-light{color: var(--light);}
+.text-light{color: var(--light);}
 
-    .text-muted{ color: var(--muted);}
+.text-muted{ color: var(--muted);}
 
-    /***********Components***********/
-    .product-image{
-        position: relative;
-    }
-    /** tell all children that this is the perent*/
-.product-image img{
+/***********Components***********/
+.course{
+    position: relative;
+}
+/** tell all children that this is the perent*/
+.course img{
     aspect-ratio: 16/9;
     width: 100%;
     
-object-fit: cover;
-border: 4px solid var(--light);
-border-radius: var(--space-2);
+    object-fit: cover;
+    border: 4px solid var(--light);
+    border-radius: var(--space-2);
 }
-.product-image .product-tag{
+.course .product-tag{
     background-color: var(--dark);
     color: var(--light);
     box-shadow: var(--shadow-light);
-
+    
     padding: var(--space-1) var(--space-2);
     border-radius: var(--space-3);
     position: absolute;
     left: var(--space-2);
     top: var(--space-2);
-
+    
 }
 .profile{
-display: grid;
-grid-template-columns: auto 1fr;
-grid-template-rows: repeat(2,1fr);
-column-gap: var(--space-2);
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: repeat(2,1fr);
+    column-gap: var(--space-2);
 }
 .profile img{
-
-   aspect-ratio:1/1 ;
+    
+    aspect-ratio:1/1 ;
     width: 3rem;
     object-fit: cover;
     border-radius: 100%;
@@ -182,7 +182,7 @@ column-gap: var(--space-2);
 .flex-between{justify-content: space-between;}
 
 .grid-2col{
-grid-template-columns: repeat(2,2fr);
+    grid-template-columns: repeat(2,2fr);
 }
 .flex-between{justify-content: space-between;}
 
@@ -214,9 +214,9 @@ grid-template-columns: repeat(2,2fr);
     
     border-radius: 100%;
     aspect-ratio: 1/1;
-width: 3rem;/*Root font siz:16px*/
-box-shadow: var(--shadow-dark);
-
+    width: 3rem;/*Root font siz:16px*/
+    box-shadow: var(--shadow-dark);
+    
 }
 .swatch,.swatch-name{
     text-align: center;
@@ -242,11 +242,11 @@ box-shadow: var(--shadow-dark);
 }
 /***********Modile***********/
 @media (max-width:600px){
-.sm-grid-1col{
-    grid-template-columns: 1fr;
-}
-
-.sm-grid-2col{
-    grid-template-columns: repeat(2, 1fr);
-}
+    .sm-grid-1col{
+        grid-template-columns: 1fr;
+    }
+    
+    .sm-grid-2col{
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
