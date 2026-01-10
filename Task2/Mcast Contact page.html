@@ -9,20 +9,21 @@
 <body>
      <!--mailto: starts an email to be sent to a specific address-->
 
-     <form action="mailto:info@coffe.com" method="post"enctype="text/plain" class="contact-form">
+     <form action="mailto:info@coffe.com" method="post" enctype="text/plain" class="contact-form">
 
         <div class="input-section">
             <label for="input-topic">Topic:</label>
             <select name="topic" id="input-topic" required>
                 <option value="" disabled selected>Choose a Topic</option>
-                <option value="love-coffee">I Love coffee</option>
-                <option value="hate-coffee">I Hate coffe</option>
+                <option value="Want to complain">I Want to complain</option>
+                <option value="Want to know more">I Want to Know more </option>
+                <option value="Would like to have a meeting">Would like to have a meeting  </option>
             </select>
         </div>
 
         <div class="input-section">
             <label for="input-name">Name:</label>
-            <input type="text" name="name" id="input-name"placeholder="Jhone Smith" required>
+            <input type="text" name="name" id="input-name" placeholder="Jhone Smith" required>
         </div>
 
         <div class="input-section">
@@ -33,12 +34,88 @@
         <div>
             <div class="input-section">
                 <label for="input-message">Message:</label>
-                <textarea name="Message" id="input-message"placeholder="Your messege here..."
+                <textarea name="Message" id="input-message" placeholder="Your messege here..."
                 required minlength="20" cols="30" rows="10"></textarea>
             </div>
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
-        <button type="reset"class="btn btn-secondary">Clear</button>
+        <button type="reset" class="btn btn-secondary">Clear</button>
     </form>
+
+    <section class="d-grid grid-2col sm-grid-1col gap-3">
+
+    <div class="bg-muted p-3">
+        
+        <h3>"The web site simes to be well organized and usefull to use". </h3>
+
+            <div class="profile">
+                <img src="assets/men-banner.avif" alt="">
+                <strong class="name">James Petersin</strong>
+                <span class="job-title">Senior Lectuor</span>
+        
+        
+            </div>  
+    </div>
+
+    <div class="bg-muted p-3">
+        <h3>"The web site simes to be well organized and usefull to use". </h3>
+
+            <div class="profile">
+                <img src="assets/men 2.webp" alt="">
+                <strong class="name">Kevin Simopsion</strong>
+                <span class="job-title">Supervisor</span>
+        
+        
+            </div>  
+    </div>
+
+    <div class="bg-muted p-3">
+        <h3>"The staff was very helpful". </h3>
+
+        <div class="profile">
+            <img src="assets/women.webp" alt="">
+            <strong class="name">Susine Petresion</strong>
+            <span class="job-title">Senior Lectuor</span>
+    
+    
+        </div>  
+    </div>
+
+    <div class="bg-muted p-3">
+        <h3>"A place where I can learn and grow". </h3>
+
+        <div class="profile">
+            <img src="assets/handsome-man.webp" alt="">
+            <strong class="name">Kieth Andersion</strong>
+            <span class="job-title">Entrepreneur</span>
+    
+    
+        </div>  
+    </div>
+
+    <div class="bg-muted p-3">
+        <h3>"A place thats still growing". </h3>
+
+        <div class="profile">
+            <img src="assets/women-3.webp" alt="">
+            <strong class="name">Billy Petresion</strong>
+            <span class="job-title">Senior Lectuor</span>
+
+
+        </div>  
+    </div>
+
+    <div class="bg-muted p-3">
+        <h3>"Very Long hours". </h3>
+
+        <div class="profile">
+            <img src="assets/men-3.webp" alt="">
+            <strong class="name">Aurther Stille </strong>
+            <span class="job-title">Staff Manager</span>
+
+
+        </div>  
+    </div>
+</section>
 </body>
 </html>

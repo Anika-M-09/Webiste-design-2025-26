@@ -170,7 +170,7 @@ p{
 }
 .container-section{
     box-shadow: var(--shadow-dark);
-    padding: var(--space-2) auto;
+    padding: var(--space-2);
     margin-top: var(--space-2);
 }
 .d-flex{display: flex;}
