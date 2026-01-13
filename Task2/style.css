@@ -175,29 +175,7 @@ p{
     left: var(--space-2);
     top: var(--space-2);
 }
-.logo{
-    position: relative;
-}
-/** tell all children that this is the perent*/
-.logo img{
-    aspect-ratio: 16/9;
-    width: 100%;
-    
-    object-fit: cover;
-    border: 4px solid var(--light);
-    border-radius: var(--space-2);
-}
-.logo .product-tag{
-    background-color: var(--dark);
-    color: var(--light);
-    box-shadow: var(--shadow-light);
-    
-    padding: var(--space-1) var(--space-2);
-    border-radius: var(--space-3);
-    position: absolute;
-    left: var(--space-2);
-    top: var(--space-2);
-}
+
 .Index{
     position: relative;
 }
