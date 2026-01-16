@@ -1,0 +1,33 @@
+/* This is a CSS comment*/
+/* CSS Reset*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/*targets the body tag <boby>*/
+body{
+background-color: rgb(255, 218, 161);
+font-family:Arial, Helvetica, sans-serif;
+line-height: 1.5;/* 1.5 Line Spacing */
+color: #ffffff;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family:"Noto+Sans",sans-serif ;
+    margin: 0.5em;/* em -Scales on font size*/
+    /* if the font size is 40px,0.5em is 20px*/
+}
+section{
+   background-color: rgb(49, 92, 78);
+   color: azure;
+    margin: 5em;
+    padding: 5em;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(106, 196, 196);
+    border-radius: 10px;
+}
+nav a{/*targents all links in nav*/
+    padding: 1em;
+    font-weight: bold;
+    color: #ffffff;
+}
